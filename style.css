@@ -21,6 +21,7 @@ body {
 	width: 100%;
 	justify-content: space-between;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .cinema-top-scifi-movies-text > h3 {
@@ -73,6 +74,7 @@ body {
 	width: 100%;
 	justify-content: space-between;
 	margin-bottom: 10px;
+	align-items: center;
 }
 
 .cinema-documentaries-text > h3 {
@@ -425,15 +427,12 @@ footer {
 		align-items: center;
 	}
 }
-
-/* AKASH */
-
-
 .top-nav {
     background-color: black;
     position: fixed; 
     width: 100%;
-    top: 0px;
+	top: 0px;
+	z-index: 100;
 }
 
 .nav-items {
@@ -515,22 +514,27 @@ div.slider-wrapper{
     height: auto;
     width: 100%;
     margin-top: 60px;
-    margin-bottom: 30px;
 }
 
 .mobile{
     display: none;
 } 
 
-.boxes img{
+.image-videos img{
     width: 230px;
-    height: auto;
+	height: auto;
+	margin-top: 5px;
+    
+} 
+.image-videos img:hover{
+	outline: 5px solid yellow;
     
 } 
 .movies-row-fixed{
     display: flex;
     background-color: black;
-    overflow-x: auto;
+	overflow-x: auto;
+	margin-top: 5px;
 }
 
 .movies-row-fixed a {
