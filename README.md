@@ -5,6 +5,8 @@ applying HTML and CSS(without any external library). The aim was to challenge ou
 
 Deloyed link: https://rakuten-replica.netlify.app/
 
+(Since no framework and Library have been used, to view the detail page, click on READY PLAYER ONE movie, we created the template hardcoded)
+
 # Technnology
 
 - HTML5
