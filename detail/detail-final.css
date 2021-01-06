@@ -391,12 +391,11 @@ a:visited {
   justify-content: center;
   align-items: center;
   height: 200px;
-  width: 600px;
 }
 
 .trailer-shortcut {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 36px;
+  padding: 22px;
   border-radius: 72px;
   z-index: 99;
   cursor: pointer;
@@ -404,7 +403,7 @@ a:visited {
 
 .add-wishlist-shortcut {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 36px;
+  padding: 22px;
   border-radius: 72px;
   z-index: 99;
   cursor: pointer;
@@ -526,6 +525,7 @@ a:visited {
   color: black;
 }
 
+
 @media screen and (max-width: 910px) {
   .film-info-container {
     width: 100%;
@@ -571,6 +571,19 @@ a:visited {
 
   .cover-icons p {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .watch-now, .voucher{
+    width: 229px;
+  }
+  .cover-film-info{
+    bottom: 3%;
+  }
+}
+@media screen and (max-width: 700px) {
+  table{
+    width: 100%;
   }
 }
 
