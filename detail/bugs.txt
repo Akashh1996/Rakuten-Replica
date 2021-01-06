@@ -1,0 +1,5 @@
+## Bugs to be fixed
+
+- Header hides under film cover and scores.
+
+- Some classes have to be renamed, as there are conflicts after exporting current footer.
