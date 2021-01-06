@@ -434,6 +434,14 @@ footer {
 	width: 30%;
 	height: auto;
 }
+.top-nav {
+    background-color: black;
+    position: fixed; 
+    width: 100%;
+	top: 0px;
+	z-index: 1000;
+}
+
 
 
 @media screen and (min-width: 1024px) {
@@ -467,13 +475,6 @@ footer {
 		flex-direction: row;
 		align-items: center;
 	}
-}
-.top-nav {
-    background-color: black;
-    position: fixed; 
-    width: 100%;
-	top: 0px;
-	z-index: 100;
 }
 
 .nav-items {
